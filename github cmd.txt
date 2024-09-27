@@ -1,0 +1,25 @@
+Firstly, Fork the project repository in your github account (Using fork option in git website).
+Then, click on code and copy the repository url...and clone the repository into new folder(anywhere desktop).
+After Cloning has done, Create new branch 
+git branch [new branch name]
+Then, check how many branches are there and your branch gets created or not using below command 
+git branch
+Switch to your new branch using following command - 
+git checkout [new branch name]
+then check branch has switched or not and see new branch gets highlighted using green colour using below cmd 
+git branch
+Then, go to clone repository folder and add all the files you want to add(i.e. copy your files).
+Go to command prompt, run below command to check status whether it's showing add files and files names 
+git status
+Then add the files in branch using below command 
+git add . 
+Then again check status using below command 
+git status
+Then commit the changes using below command 
+git commit -m "[Commit msg you want to give]"
+Now push the content in the branch using below command 
+git push origin [Branch Name(new created previous branch)]
+Then done go to git website and find option compare and pull request 
+and click on create pull request. 
+Done...
+ 
